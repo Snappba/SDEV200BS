@@ -5,14 +5,32 @@
 
 public class M1P1 {
     public static void main (String[] args) {
-        System.out.println("call a method with its measurement to continue");
-    }
+
+        double startFeet = 1.0;
+        double startMeters =3.0;
+        
+        System.out.println("Feet\tMeters\t|\tMeters\tFeet");
+        System.out.println("--------------------------------------");
+
+            for (int i = 0; i < 10; i++) {
+                double feet = startFeet + i;          // increment feet by 1 each row
+                double meters = footToMeter(feet);    // convert to meters
+
+                double meter = startMeters + i * 5;   // increment meters by 5 each row
+                double foot = meterToFoot(meter);     // convert to feet
+
+                // formatted output: tabs for spacing, 2 decimal places
+                System.out.printf("%-5.1f\t%-6.2f\t|\t%-6.1f\t%-6.2f%n",
+                    feet, meters, meter, foot);
+            }    
+        }
     public static double footToMeter(double foot) {
         return foot * 0.305;
         
     }
     public static double meterToFoot(double meter) {
         return meter * 3.279;
+
     }
 
 
