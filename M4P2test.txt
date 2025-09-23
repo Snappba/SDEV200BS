@@ -1,0 +1,28 @@
+// This is a single-line comment
+public class TestKeywords {
+    public static void main(String[] args) {
+        // Declare variables
+        int number = 10; // This is a variable
+        String text = "Hello, World!"; // String example
+
+        /* 
+           This is a multi-line comment
+           It should not count keywords like 'for' or 'if'
+        */
+
+        if (number > 5) {
+            System.out.println(text);
+        } else {
+            // This comment should not affect keyword counting
+            for (int i = 0; i < number; i++) {
+                System.out.println("Count: " + i);
+            }
+        }
+
+        // Keywords to test: abstract, assert, boolean, break, byte, case, catch, char, class
+        boolean isTrue = true; // Testing boolean keyword
+        char letter = 'A'; // Testing char keyword
+        double pi = 3.14; // Testing double keyword
+        final int CONSTANT = 100; // Testing final keyword
+    }
+}
