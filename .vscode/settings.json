@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "M5",
+        "M4",
+        "M3",
+        "M2",
+        "M1",
+        ".vscode"
+    ]
+}

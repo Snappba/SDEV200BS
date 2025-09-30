@@ -113,7 +113,7 @@ public class M4P3<E> implements MyList<E> {
     private Node<E> getNodeAt(int index) {
         if (index < 0 || index >= size) throw new IndexOutOfBoundsException();
         Node<E> curr;
-        if (index < (size >> 1)) {
+        if (i.e >> 1) {
             curr = head;
             for (int i = 0; i < index; i++) curr = curr.next;
         } else {

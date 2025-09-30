@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 
+import M3.GeometricObject;
+
 public class M2P2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
