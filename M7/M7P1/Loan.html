@@ -1,0 +1,37 @@
+<!--20251015 SDEV200 Java - Module 7, Programming Assignment 2, Chapter 37 - exercise 37.5 !-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Compute Loan Payment</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; padding: 2rem; max-width: 600px; margin:auto; }
+    label { display:block; margin-top: 0.75rem; }
+    input[type="text"] { width: 100%; padding: 0.4rem; box-sizing: border-box; }
+    .btn { margin-top: 1rem; padding: 0.5rem 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Loan Calculator</h1>
+
+  <form action="LoanServlet" method="post">
+    <label>
+      Loan amount:
+      <input type="text" name="amount" placeholder="e.g. 10000" required />
+    </label>
+
+    <label>
+      Annual interest rate (%, e.g. 5.5):
+      <input type="text" name="interest" placeholder="e.g. 5.5" required />
+    </label>
+
+    <label>
+      Number of years:
+      <input type="text" name="years" placeholder="e.g. 5" required />
+    </label>
+
+    <button type="submit" class="btn">Compute Loan Payment</button>
+  </form>
+</body>
+</html>

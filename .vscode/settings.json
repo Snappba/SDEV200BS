@@ -1,10 +1,30 @@
 {
     "java.project.sourcePaths": [
+        "M7",
+        "M62",
         "M5",
         "M4",
         "M3",
         "M2",
         "M1",
-        ".vscode"
-    ]
+        ".vscode",
+        "M6"
+    ],
+    "java.project.referencedLibraries": [
+        "lib\\mysql-connector-j-9.4.0.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\jfx.incubator.input.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx.graphics.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx.base.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx.swing.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx.controls.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx-swt.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx.media.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\jfx.incubator.richtext.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx.web.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\javafx.fxml.jar",
+        "c:\\JavaFX-\\javafx-sdk-25\\lib\\jdk.jsobject.jar",
+        "c:\\xampp\\Tomcat\\lib\\servlet-api.jar"
+    ],
+    "java.project.explorer.showNonJavaResources": true,
+    "java.dependency.packagePresentation": "hierarchical"
 }

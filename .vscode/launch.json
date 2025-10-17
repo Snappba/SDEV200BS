@@ -21,6 +21,20 @@
             "request": "launch",
             "mainClass": "M5P3",
             "vmArgs": "--module-path C:/JavaFX-/javafx-sdk-25/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Run M6P1",
+            "request": "launch",
+            "mainClass": "M6P1",
+            "vmArgs": "--module-path C:/JavaFX-/javafx-sdk-25/lib --add-modules javafx.controls,javafx.fxml",
+        },
+        {
+            "type": "java",
+            "name": "Run M6P2",
+            "request": "launch",
+            "mainClass": "M6P2",
+            "vmArgs": "--module-path C:/JavaFX-/javafx-sdk-25/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
